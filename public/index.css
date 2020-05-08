@@ -1,0 +1,429 @@
+/* .images{
+    height: 150px;
+    width: 235px;
+    margin: 1px;
+    padding-top: -16px;
+    position: relative;
+    top: -18px;
+} */
+#head
+{
+    background-color: blue;
+    height: 70px;
+    
+}
+.first{
+ display: inline;
+ margin-left: 100px;
+ font-family: Times;
+ color: white;
+}
+.d-btn
+{
+    
+    border: 1px solid black;
+    background-color: white;
+    height: 30px;
+    margin-left: 9px;
+    top: 10px;
+    width: auto;
+}
+#extra
+{
+    position: relative;
+    display: inline;
+    top: 12px;
+    margin-left:60px;
+}
+#fb
+{
+    margin-left: 105px;   
+    margin-top: 20px;
+    border-radius: 10%;
+}
+#twitter
+{
+    margin-top: 20px;
+    border-radius: 10%;
+    margin-left: 15px;
+}
+#insta
+{
+    margin-top: 20px;
+    border-radius: 100%;
+    margin-left: 12px;
+}
+#youtube,#whatsapp
+{
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+/* Navbar*/
+
+#navbarDropdownMenuLink{
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color:black;
+}
+
+#navbarDropdownMenuLink:hover{
+     background-color: #316dc3;
+     color: white; 
+}
+
+#saylani-logo{
+    height: 59px;
+    position: relative;
+    left: 89px;
+}
+nav{
+    background-color: #F7F8FA;
+    /* position: fixed; */
+    /* box-shadow: 10px 10px 10px #F7F8FA; */
+}
+
+#navbar{
+    background-color: #F7F8FA;
+    width: 1523px;
+}
+
+.home-button{
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+    background-color: #316dc3;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.media-btn{
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    background-color: #F7F8FA;
+    color:black;
+}
+
+ul{
+    position: relative;
+    left: 377px;
+}
+
+/* Carousel */
+#Slides
+{
+    position: absolute; 
+}
+
+/* News */
+
+#divNews
+{
+    background-color: #316DC3;
+    height: 30px;
+    width: 1000px;
+    position: relative;
+     left: 200px;
+    overflow: hidden;
+}
+.new
+{
+    position: absolute;
+    white-space: nowrap;
+    animation: floatText 9s infinite alternate ease-in-out;
+}
+@-webkit-keyframes floatText{
+    from {
+      right: 0%;
+    }
+  
+    to {
+      right: 100%;
+    }
+  }
+
+  /* Para */
+.inline
+{
+    display: inline;
+    font-weight: bold;
+}
+#one{
+    color: blue;
+}
+.two
+{
+    display: inline;
+    color: lightgreen;
+}
+.heading
+{
+    text-align: center;
+    background-color: gainsboro;
+}
+#para
+{
+    background-color: gainsboro;
+    /* margin-left: 170px; */
+    width: 70%;
+    text-align: start;
+}
+#paragraph
+{
+    background-color: gainsboro;
+}
+/* Blue Div */
+.rows
+{
+    background-color:blue;    
+    line-height: 50px;
+    position:relative;
+    display: inline;
+    top: -10px;
+}
+.monthly
+{
+    color: lightgreen;
+}
+.script
+{
+ font-weight: bolder;
+ margin-left: 10px;
+ color: white;
+}
+.num
+{
+    margin-left: 50px;
+    line-height: 50px;
+    color: white;
+}
+.icon
+{
+    margin-left: 90px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* CARDS */
+.line
+{
+    font-weight:bolder ;
+    color: blue;
+    text-align: center;
+}
+.card
+{
+    margin: 30px;
+    left: 60px;
+    width: 350px;
+    height:180px;
+}
+#for-top{
+    position: relative;
+    top: -70px
+}
+
+.container-imgs{
+    height: 70px;
+}
+
+.titles{
+    font-size: 18px ; 
+    color: #316dc3;
+}
+
+#moving-downward{
+    padding-top: 40px;
+}
+
+#mission-heading{
+    font-size: 24px; 
+    color: #316dc3;
+    padding-left: 204px;
+}
+
+.mission-content{
+    background-color: #F7F8FA;
+    color: #316dc3;
+    padding: 15px;
+    width: 350px;
+    height: 60px;
+}
+
+#hepatitits{
+    margin-left: 204px;
+}
+
+#housing-scheme{
+    margin-left: 580px;
+    position: relative;
+    top: -67px;
+}
+
+#it-literacy{
+    margin-left: 204px;
+    position: relative;
+    top: -53px;
+}
+
+#tharparkar{
+    margin-left: 580px;
+    position: relative;
+    top: -121px;
+}
+
+#line-img{
+    padding-left: 203px;
+    padding-bottom: 20px;
+}
+
+#upcoming-events{
+    font-size: 24px; 
+    color: #316dc3;
+    /* padding-left: 204px; */
+}
+
+#left-side{
+    width: 260px;
+    height: 205px;
+    position: relative;
+    top: -415px;
+    left: 975px;
+
+}
+/* GALLERY */
+
+.gallery
+{
+    text-align: center;
+    height: 280px;
+    margin-top: -300px;
+}
+
+/* Footer */
+footer{
+    background-color: #25272E;
+    height: 340px;
+    color: #bbbbbb;
+}
+
+#footer-para{
+    margin-left: 175px;
+    padding-top: 75px;
+}
+
+#contact-no{
+    list-style-type: none;
+    position: relative;
+    left: 144px;
+    top: 17px;
+}
+
+#i-contact{
+    color: green;
+    margin-left: -188px;
+    position: relative;
+    top: 2px;
+
+}
+
+.list{
+    margin-left: 29px;
+    position: relative;
+    top: -23px;
+}
+
+#icons {
+    list-style-type: none;
+    position: relative;
+    top: -167px;
+    left: 335px;
+}
+
+.left-side-item{
+    position: relative;
+    top: -143px;
+    left: 205px;
+}
+
+#left-side-icon{
+    list-style-type: none;
+    position: relative;
+    left: 333px;
+    top: -300px;
+    color: green;
+}
+
+#useful-links{
+    position: relative;
+    color:white !important;
+    left: 500px;
+    font-size: 14px;
+}
+
+#line-img-footer{
+    width: 360px;
+}
+#uper{
+    position: relative;
+    top: -425px;
+    left: 542px;
+    color: white !important;
+    width: 360px;
+}
+#contact-with-us{
+    position: relative;
+    color: white !important;
+    top: -34px;
+    left: 1px;
+    font-size: 14px;
+}
+#contact-icon{
+    position: relative;
+    top: -471px;
+    list-style-type: none;
+    left: 1041px;
+}
+
+#social-icon-1{
+    position: relative;
+    top: -24px;
+    left: 46px;
+}
+
+#social-icons-2{
+    position: relative;
+    top: -48px;
+    left: 98px;
+}
+
+
+#social-icons-3{
+    position: relative;
+    top: -73px;
+    left: 154px;
+}
+
+#bottom-div{
+    background-color: #316dd9;
+    list-style-type: none;
+    position: relative;
+    top: -347px;
+    height: 40px;
+    font-size: 11px;
+    color: white;
+}
+
+#bottom-text{
+    position: relative;
+    top: 9px;
+    left: 150px;
+}
