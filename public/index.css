@@ -13,37 +13,38 @@
     height: 27px;
     top: 15px;
 }
+.hilao
+{
+    position: relative;
+    margin-top: 15px;
+    margin-left: -300px;
+}
 .all
 {
     position: relative;
     top: 15px;
     margin-left:20px;
 }
-#fb
+ #fb
 {
-    margin-left: 105px;   
-    margin-top: 20px;
     border-radius: 10%;
 }
 #twitter
 {
-    margin-top: 20px;
     border-radius: 10%;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 #insta
 {
-    margin-top: 20px;
+
     border-radius: 100%;
-    margin-left: 12px;
+    margin-left: 10px;
 }
 #youtube,#whatsapp
 {
-    margin-left: 15px;
-    margin-top: 20px;
+    margin-left: 10px;
     border-radius: 10%;
-}
-
+} 
 /* Navbar*/
  #navbarDropdownMenuLink{
     border-radius: 20px;
@@ -51,8 +52,15 @@
     cursor: pointer;
     color:black;
 }
-#navbarDropdownMenuLink:hover,.media-btn:hover{
+#navbarDropdownMenuLink:hover
+{
     background-color: #316dc3;
+    color: white; 
+    border-radius: 20px;
+}
+.media-btn:hover{
+    background-color: #316dc3;
+    border-radius: 20px;
     color: white; 
 }
 #saylani-logo{
@@ -81,7 +89,7 @@
 ul{
     position: relative;
     left: 377px;
-} */
+} 
 
 /* Carousel */
 #Slides
@@ -137,12 +145,7 @@ ul{
     background-color: gainsboro;
 }
 /* Blue Div */
-.rows
-{
-    position: relative;
-    background-color: #316dc3;
-    top: -15px;
-}
+
 #details
 {
     display: inline;
@@ -245,114 +248,14 @@ body{
 }
 
 /* Footer */
-footer{
-    height: 340px;
+@media (max-width: 767px)
+#footer .container {
+    padding: 70px 15px!important;
 }
-#footer-para{
-    margin-left: 175px;
-    padding-top: 75px;
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
 }
-#contact-no{
-    list-style-type: none;
-    position: relative;
-    left: 144px;
-    top: 17px;
+.footer-social-icons-title {
+    color: #fff;
 }
-#i-contact{
-    color: green;
-    margin-left: -188px;
-    position: relative;
-    top: 2px;
-
-}
-
-.list{
-    margin-left: 29px;
-    position: relative;
-    top: -23px;
-}
-
-#icons {
-    list-style-type: none;
-    position: relative;
-    top: -167px;
-    left: 335px;
-}
-
-.left-side-item{
-    position: relative;
-    top: -143px;
-    left: 205px;
-}
-
-#left-side-icon{
-    list-style-type: none;
-    position: relative;
-    left: 333px;
-    top: -300px;
-    color: green;
-}
-
-#useful-links{
-    position: relative;
-    color:white !important;
-    left: 500px;
-    font-size: 14px;
-}
-
-#line-img-footer{
-    width: 360px;
-}
-#uper{
-    position: relative;
-    top: -425px;
-    left: 542px;
-    color: white !important;
-    width: 360px;
-}
-#contact-with-us{
-    position: relative;
-    color: white !important;
-    top: -34px;
-    left: 1px;
-    font-size: 14px;
-}
-#contact-icon{
-    position: relative;
-    top: -471px;
-    list-style-type: none;
-    left: 1041px;
-}
-
-#social-icon-1{
-    position: relative;
-    top: -24px;
-    left: 46px;
-}
-
-#social-icons-2{
-    position: relative;
-    top: -48px;
-    left: 98px;
-}
-
-
-#social-icons-3{
-    position: relative;
-    top: -73px;
-    left: 154px;
-}
-
- .bottom-div{
-
-    position: relative; 
-    top: -347px;
-    height: 40px;
-    font-size: 12px; 
-    color: white;
-} 
-#bottom-text{
-    position: relative;
-    top: 9px;
-    left: 150px;
-} 
